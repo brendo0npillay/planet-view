@@ -39,17 +39,17 @@ const description = document.querySelector(".desc");
 
 //load planet textures
 const loader = new THREE.TextureLoader();
-const earthTexture = loader.load("../assets/earth8k.jpg");
-const marsTexture = loader.load("../assets/mars.jpg");
-const saturnTexture = loader.load("../assets/saturn.jpg");
-const ringTexture = loader.load("../assets/saturn_ring.png");
-const starFieldTexture = loader.load("../assets/starfield.jpg");
-const sunTexture = loader.load("../assets/sun.jpg");
-const mercuryTexture = loader.load("../assets/mercury.jpg");
-const venusTexture = loader.load("../assets/venus.jpg");
-const jupiterTexture = loader.load("../assets/jupiter.jpg");
-const uranusTexture = loader.load("../assets/uranus.jpg");
-const neptuneTexture = loader.load("../assets/neptune.jpg");
+const earthTexture = loader.load("/earth8k.jpg");
+const marsTexture = loader.load("/mars.jpg");
+const saturnTexture = loader.load("/saturn.jpg");
+const ringTexture = loader.load("/saturn_ring.png");
+const starFieldTexture = loader.load("/starfield.jpg");
+const sunTexture = loader.load("/sun.jpg");
+const mercuryTexture = loader.load("/mercury.jpg");
+const venusTexture = loader.load("/venus.jpg");
+const jupiterTexture = loader.load("/jupiter.jpg");
+const uranusTexture = loader.load("/uranus.jpg");
+const neptuneTexture = loader.load("/neptune.jpg");
 
 //add starfield background
 scene.background = starFieldTexture;
